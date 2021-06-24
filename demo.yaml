@@ -1,0 +1,28 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-deployment
+  namespace: cic-test
+spec:
+  selector:
+    matchLabels:
+      app: demo-pod kube-system
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: demo-pod
+    spec:
+      containers:
+      - name: demo-container
+        image: oai-bs-multiusrp:enb  #本地私有镜像库的镜像名称+版本
+        command: ["/bin/bash","-c","--"]
+        args: ["while true; do sleep 30; done;"]
+        ports:
+        - containerPort: 8701
+      tolerations:
+      - key: "node-role.kubernetes.io/master"
+        operator: "Equal"
+        value: ""
+        effect: "NoSchedule"
