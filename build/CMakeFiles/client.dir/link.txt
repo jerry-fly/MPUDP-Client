@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -O3 -DNDEBUG   CMakeFiles/client.dir/main.cpp.o  -o client -lpthread ../lib/libmythread.a ../lib/libmytimer.a ../lib/libcbuf.a -lfolly -lboost_system -lrt 

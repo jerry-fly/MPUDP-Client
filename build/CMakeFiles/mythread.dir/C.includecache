@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ue/test/MWSR_doublebuffer/thread.c
+thread.h
+/home/ue/test/MWSR_doublebuffer/thread.h
+
+/home/ue/test/MWSR_doublebuffer/thread.h
+sys/types.h
+-
+pthread.h
+-
+

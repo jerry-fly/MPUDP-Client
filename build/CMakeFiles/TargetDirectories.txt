@@ -1,0 +1,6 @@
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/edit_cache.dir
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/rebuild_cache.dir
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/mythread.dir
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/cbuf.dir
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/client.dir
+/home/ue/test/MWSR_doublebuffer/build/CMakeFiles/mytimer.dir

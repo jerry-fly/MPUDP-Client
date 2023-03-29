@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ue/test/MWSR_doublebuffer/cbuf.c
+cbuf.h
+/home/ue/test/MWSR_doublebuffer/cbuf.h
+
+/home/ue/test/MWSR_doublebuffer/cbuf.h
+sys/types.h
+-
+stdbool.h
+-
+thread.h
+/home/ue/test/MWSR_doublebuffer/thread.h
+
+/home/ue/test/MWSR_doublebuffer/thread.c
+thread.h
+/home/ue/test/MWSR_doublebuffer/thread.h
+
+/home/ue/test/MWSR_doublebuffer/thread.h
+sys/types.h
+-
+pthread.h
+-
+
